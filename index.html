@@ -127,7 +127,7 @@
     width: 100%; background: rgba(255,255,255,.7); border: 1.5px solid rgba(189,221,228,.6);
     border-radius: 12px; padding: 11px 14px; font-size: 13.5px; color: #1a1a2e;
     font-family: 'DM Sans', sans-serif; outline: none; transition: all .2s;
-    -webkit-appearance: none;
+    -webkit-appearance: none; appearance: none;
   }
   .field-input:focus { border-color: var(--peri); background: #fff; box-shadow: 0 0 0 4px rgba(159,179,223,.12); }
   .field-input::placeholder { color: #ccc; }
@@ -434,8 +434,7 @@
 
 <script>
 const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby1psgJjUJKmJflm8WaGDSq1SSXg17AnLIGT_pGFUDXpSSbvgVa99AEaAi80dljuI_Y/exec';
-const IS_DEMO = SCRIPT_URL === 'https://script.google.com/macros/s/AKfycby1psgJjUJKmJflm8WaGDSq1SSXg17AnLIGT_pGFUDXpSSbvgVa99AEaAi80dljuI_Y/exec
-';
+const IS_DEMO = SCRIPT_URL === 'ISI_URL_DISINI';
 
 // Init date display
 const now = new Date();
